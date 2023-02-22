@@ -13,28 +13,36 @@
     <div class="container">
         <div class="left_section">
             <figure></figure>
-            <footer></footer>
+            <footer>Photo by <a
+                    href="https://unsplash.com/es/@mikakor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mika
+                    Korhonen</a> on <a
+                    href="https://unsplash.com/photos/xNqnwGVQTqs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </footer>
         </div>
         <div class="right_section">
-            <p>This is not a real online service! You know you need something
+            <p class="text">This is not a real online service! You know you need something
                 like this in your real life to help you realize your deepest
                 dreams.Sign up now to get started.
             </p>
-            <p>
+            <p class="text">
                 You know you want to.
             </p>
             <form action="#">
                 <legend>Let's do this!</legend>
                 <fieldset>
-                    <label for="first_name">First name <input type="text" id="first_name" name="name"></label>
-                    <label for="last_name">Last name <input type="text" id="last_name" name="surname"></label>
+                    <div class="left">
+                        <label for="first_name">First name <input type="text" id="first_name" name="name"></label>
+                        <label for="last_name">Last name <input type="text" id="last_name" name="surname"></label>
 
-                    <label for="email">Email <input type="email" name="email" id="email"></label>
-                    <label for="phone">Phone number <input type="tel" name="phone" id="phone"></label>
+                        <label for="email">Email <input type="email" name="email" id="email"></label>
+                    </div>
+                    <div class="right">
+                        <label for="phone">Phone number <input type="tel" name="phone" id="phone"></label>
 
-                    <label for="pass">Password <input type="password" name="password" id="pass"></label>
-                    <label for="pass_conf">Confirm password <input type="password" name="confirm"
-                            id="pass_conf"></label>
+                        <label for="pass">Password <input type="password" name="password" id="pass"></label>
+                        <label for="pass_conf">Confirm password <input type="password" name="confirm"
+                                id="pass_conf"></label>
+                    </div>
                 </fieldset>
                 <input type="submit" value="Create account" id="create">
             </form>
